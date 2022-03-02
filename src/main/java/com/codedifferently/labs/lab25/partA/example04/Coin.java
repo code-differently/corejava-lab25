@@ -1,0 +1,13 @@
+package com.codedifferently.labs.lab25.partA.example04;
+
+public class Coin {
+    private int denomination;
+
+    public Coin(int denomination){
+        this.denomination  = denomination;
+    }
+
+    public int getDenomination(){
+        return denomination;
+    }
+}
